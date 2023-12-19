@@ -1,0 +1,428 @@
+/* styles.css */
+
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a modern font stack */
+body {
+    font-family: 'PT Serif', 'Georgia', serif;
+}
+
+/* Header styles */
+header {
+    background-color: #C3CEDB;
+    color: #1E2859;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1E2859;
+    margin: 0 90px;
+    font-size: 1.3em; /* Adjust the font size as needed */
+}
+
+/* Hero Section styles */
+.hero {
+    position: relative;
+    background-image: url(../images/pexels-photo-15555114_waifu2x_art_noise3_scale.webp);
+    background-size: cover;
+    color: #fff;
+    margin-bottom: 20px;
+    padding-top: 500px;
+    padding-bottom: 500px;
+    text-align: center;
+    image-rendering: pixelated; /* Prevent image smoothing */
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* CTA Button styles */
+.cta-button {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #00bcd4;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+/* Data Visualization Section styles */
+.data-visualization {
+    padding: 50px 20px;
+}
+
+.chart-container {
+    /* Style your charts using NextUI components */
+}
+
+/* Featured Models Section styles */
+.featured-models {
+    padding: 50px 20px;
+}
+
+.model-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.model-card {
+    /* Style your model cards using NextUI card components */
+}
+
+/* Why Choose Us Section styles */
+.why-choose-us {
+    padding: 50px 20px;
+}
+
+.text-block {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.authority-graphs {
+    /* Style your authority graphs using NextUI components */
+}
+
+/* Inventory Page styles */
+.inventory {
+    padding: 50px 20px;
+}
+
+.filter-section {
+    /* Style advanced filters using NextUI components */
+}
+
+.search-results {
+    /* Style search results using NextUI components */
+}
+
+/* Individual Car Page styles */
+.individual-car-page {
+    padding: 50px 20px;
+}
+
+.hero-image {
+    /* Style hero image of the car with tech-inspired overlay */
+}
+
+.specifications {
+    /* Style specifications using charts and graphs */
+}
+
+.authority-statements {
+    /* Style authority statements */
+}
+
+.cta-section {
+    /* Style contact form and Test Drive button */
+}
+
+/* styles.css */
+
+/* ... (previous styles) ... */
+
+/* Sage Checklist Styles */
+.sage-checklist {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.sage-checklist li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 8px;
+}
+
+.sage-checklist li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #00bcd4;
+}
+
+/* Additional Graph Styles */
+.next-ui-chart {
+    /* Style your charts using NextUI components */
+    margin-bottom: 20px;
+}
+
+/* Car Listing Styles */
+.car-listing {
+    /* Style your car listings using NextUI card components */
+}
+
+/* Authority Statements Styles */
+.authority-statements {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* CTA Section Styles */
+.cta-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Contact Form Styles */
+.next-ui-form {
+    /* Style your contact form using NextUI components */
+}
+
+/* ... (continue with other styles as needed) ... */
+
+
+/* styles.css */
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    color: #00bcd4;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+    margin: 0 10px;
+}
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+/* ... (previous styles) ... */
+/* styles.css */
+
+/* ... (previous styles) ... */
+
+/* Section Heading Styles */
+.section-heading {
+    color: #00bcd4;
+    margin-bottom: 20px;
+}
+
+/*Testimonials Styles*/
+.testimonials-header{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.testimonials-header h2{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    color: #030000;
+    text-align: left;
+    font-size: 57px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 57px */
+}
+
+.testimonials-h2{
+    margin-top: 4rem;
+}
+
+.testimonials-header p{
+    font-size: 1.25rem;
+    color: #ABD9D9;
+}
+
+.testimonials-cards{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.testimonial{
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-basis: calc(33.33% - 20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    width: 345px;
+    height: 261px;
+    flex-shrink: 0;
+}
+
+.testimonial .circular-image{
+    position: absolute;
+    top: -80px;
+    background-color: lightgray 50% / cover no-repeat;
+}
+
+.testimonial-color1{
+    background-color:#B0B0C1
+}
+
+.testimonials-header {
+    margin-bottom: -30px; /* Remove the bottom margin */
+}
+
+
+.testimonial-color2{
+    background-color: #B0B0C1;
+}
+
+.column{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.column form{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.column form input[type="email"]{
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+.column form input[type="subscribe"]{
+    background-color: #643E29;
+    border-radius: 83px;
+    width: 193px;
+    height:56px;
+    flex-shrink: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+/* Style for the "Enter Email" input */
+input[type="email"] {
+    width: 424px;
+    height: 53px;
+    flex-shrink: 0;
+    background: #ac9d9d;
+    border: none; /* Remove the border if needed */
+    padding: 10px; /* Adjust padding as desired */
+    border-radius: 10px; /* Adjust border-radius as needed */
+    color: black; /* Text color */
+    font-size: 16px; /* Adjust the font size as desired */
+    font-family: Outfit;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 27.5px; /* 137.5% */
+letter-spacing: 1.6px;
+text-transform: uppercase;
+}
+
+/* Style for the "Subscribe" button */
+input[type="submit"] {
+    width: 193px;
+    height: 56px;
+    flex-shrink: 0;
+    border: none; /* Remove the border if needed */
+    border-radius: 83px;
+    background: #643E29;
+    color: #fff; /* Text color */
+    cursor: pointer; /* Add pointer cursor for better user experience */
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.column form input[type="subscribe"]:hover{
+    background-color: var(--accent-color);
+}
+
+/* Add these styles to your existing CSS or create a new CSS file */
+
+.next-ui-hero-text {
+    font-size: 3em;
+    font-weight: 700;
+    color: #13658b; /* Use a color that matches the sage archetype */
+    margin: 0; /* Remove default margin */
+    position: absolute; /* Position the text absolutely */
+    top: 50px; /* Adjust the top position as needed */
+    left: 50px; /* Adjust the left position as needed */
+    max-width: 70%; /* Limit the width if needed */
+    z-index: 2; /* Ensure the text is above the background image */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle text shadow */
+}
+
+.subscribe-container {
+    display: flex;
+    align-items: center;
+}
+
+.circular-image{
+    border-radius: 50%;
+    width: 100px;
+    height: 119px;
+    background-color: lightgray 50% / cover no-repeat;
+}
+
+.testimonial .circular-image{
+    position: absolute;
+    top: -80px;
+    background-color: lightgray 50% / cover no-repeat;
+}

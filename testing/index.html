@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- Link to the NextUI library, replace with the actual link -->
+    <link rel="stylesheet" href="path/to/nextui.css">
+    <!-- Add any font link you prefer, for example, Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto:300,400,500&display=swap">
+    <title>Car Dealership</title>
+    <!-- Include this script in the head section of your main HTML file -->
+<script>
+    // Check if the user has accepted cookies; if not, show the privacy policy modal
+    if (localStorage.getItem('cookieAccepted') !== 'true') {
+        document.getElementById('privacyModal').style.display = 'flex';
+    }
+</script>
+
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <!-- Navigation Bar -->
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <!-- Logo -->
+        <div class="logo">
+            <img src="car_logo.png" alt="Logo" width="100" height="100">
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <!-- Hero Text with NextUI typography class and branding -->
+            <h1 class="next-ui-hero-text">Wisdom Guides Your Perfect Ride</h1>
+            <p class="tagline">Unleash the wisdom of a well-crafted driving 
+                experience. Receive curated content that reflects the sage within you.</p>
+            <!-- Subscribe Container -->
+            <div class="subscribe-container">
+                <input type="email" placeholder="Enter Email" required>
+                <input type="submit" value="Subscribe">
+            </div>
+        </div>
+    </section>
+
+<section class="hero_center testimonials">
+    <div class="testimonials-header">
+        <h2>Customer Testimonials</h2>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="testimonials-cards">
+      <div class="testimonial testimonial-color1">
+        <img class="circular-image" src="images/istockphoto-1369508766-612x612.jpg" alt="Placeholder image">
+          <h2>STEPHANIE KARL</h2>
+          <p>The guidance I received here was invaluable. It's not just about cars; 
+            it's about making a wise choice for your lifestyle. I appreciated the 
+            thoughtful recommendations and transparent details that empowered me to 
+            make an informed decision</p>
+      </div>
+  
+      <div class="testimonial testimonial-color2">
+    <img class="circular-image" src="images/pexels-photo-2379004.jpeg" alt="Placeholder image">
+          <h2>JOSEPH PATEL</h2>
+          <p>"Choosing a car on this website felt like consulting with a wise mentor. 
+            The information provided was insightful, helping me make a decision that 
+            aligns perfectly with my needs and values."</p>
+      </div>
+      <div class="testimonial testimonial-color1">
+        <img class="circular-image" src="images/istockphoto-1319763895-612x612.jpg" alt="Placeholder image">
+          <h2>ELLIOT RODGER</h2>
+          <p>In a world filled with options, this platform stood out as a beacon of 
+            wisdom. The insights provided helped me see beyond the surface, making my 
+            car-buying journey a mindful and fulfilling experience."</p>
+      </div>
+  </div>
+
+</section>
+
+<!-- Individual Car Page -->
+<section class="individual-car-page">
+    <div class="hero-image">
+        <!-- Image of the car with tech-inspired overlay -->
+    </div>
+    <div class="specifications">
+        <!-- Specifications using charts and graphs -->
+        <div class="car-specs-chart next-ui-chart">
+            <!-- Car specifications data goes here -->
+        </div>
+    </div>
+    <div class="authority-statements">
+        <!-- Authority statements about the car's performance, safety, and technology -->
+        <p>Our Models are engineered with precision and expertise. 
+            Its cutting-edge technology ensures a seamless driving experience, 
+            while its safety features have earned it a 5-star rating. Explore 
+            the future of our automotive innovation.</p>
+    </div>
+    <div class="cta-section">
+        <!-- Contact form and Test Drive button -->
+        <form class="contact-form next-ui-form">
+            <!-- Contact form fields go here -->
+            <button type="submit" class="cta-button next-ui-button">Schedule Test Drive</button>
+        </form>
+    </div>
+</section>
+
+
+  <!-- Footer Section -->
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>Contact Us</h4>
+            <p>Email: info@yourdealership.com</p>
+            <p>Phone: (555) 123-4567</p>
+        </div>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <!-- Add this link wherever it fits in your HTML document, for example, in the footer -->
+                <li><a href="privacy.html">Privacy Policy</a>
+
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <!-- Add social media icons and links -->
+                <a href="#" class="social-icon"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#" class="social-icon"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#" class="social-icon"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="cookie-banner">
+    <p>This website uses cookies to ensure you get the best experience on our website.</p>
+    <button onclick="acceptCookies()">Got it!</button>
+</div>
+<style>
+    /* Cookie Consent Banner Styles */
+    .cookie-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        display: none;
+    }
+
+    .cookie-banner button {
+        background-color: #fff;
+        color: #333;
+        padding: 5px 10px;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+<script>
+    // Check if the user has accepted cookies
+    if (localStorage.getItem('cookieAccepted') !== 'true') {
+        document.getElementById('cookie-banner').style.display = 'block';
+    }
+
+    // Function to accept cookies and hide the banner
+    function acceptCookies() {
+        localStorage.setItem('cookieAccepted', 'true');
+        document.getElementById('cookie-banner').style.display = 'none';
+    }
+</script>
+
+
+
+</body>
+
+</html>
